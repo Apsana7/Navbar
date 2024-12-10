@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import Model from '../UI/model'
+import Model from '../UI/Model_name'
 
 const Header = () => {
   const [LoginShow, setLoginShow] = useState(false)
