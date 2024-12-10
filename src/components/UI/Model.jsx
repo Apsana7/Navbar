@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Model = (LoginShow, setLoginShow, children) => {
+const Model = () => {
     return (
         <div className='relative'>
-          
+          ds
         </div>
     )
 }
