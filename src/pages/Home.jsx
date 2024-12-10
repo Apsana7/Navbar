@@ -12,7 +12,7 @@ const Home = () => {
       
        <div className={`fixed ${abc ? "translate-y-10" : '-translate-y-96'} bg-red-800  transition-all ease-in-out delay-75 duration-1000 top-0 left-0  right-0 w-fit h-fit p-10 mx-auto text-white`}>Apsana</div>
       
-      <button onClick={() => checkString()} className={`${abc ? "bg-red-500" : "bg-green-500"}  transition-all ease-in-out delay-75 duration-1000`}>button </button>
+       <button onClick={() => checkString()} className={`${abc ? "bg-red-500" : "bg-green-500"}  transition-all ease-in-out delay-75 duration-1000`}>button </button>
     </div>
   )
 }

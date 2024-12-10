@@ -16,6 +16,8 @@ const Header = () => {
       <Link to='/Home'>Home</Link>
       <Link to='/About'>About</Link>
       <Link to='/Contact'>Contact</Link>
+      <Link to='/Demo'>Demo</Link>
+      
 
       <div className='flex gap-5'>
         <button onClick={() => {
