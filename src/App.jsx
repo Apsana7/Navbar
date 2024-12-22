@@ -9,6 +9,7 @@ import Home from '../src/pages/Home'
 import About from '../src/pages/About'
 import Contact from '../src/pages/Contact'
 import Demo from '../src/pages/Demo'
+import Button from '../src/pages/Button'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Route path="/About" element={<About />} />
       <Route path="/Contact" element={<Contact />} />
       <Route path="/Demo" element={<Demo/>}/>
+      <Route path='/Button' element={<Button/>}/>
     </Routes>
   
     </>
